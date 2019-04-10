@@ -1,0 +1,3 @@
+## dotnet-version-patch  
+Version-patch is a dotnet CLI global tool to dump versioning. 
+Searches for Properties/AssemblyInfo.cs and increments AssemblyVersion and AssemblyFileVersion major and/or minor numbers and saves other values (supports autoincrement build and revision)

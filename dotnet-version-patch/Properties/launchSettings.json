@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dotnet-version-patch": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\projects\\shit\\dotnet-version-patch\\dotnet-version-patch"
+    }
+  }
+}
