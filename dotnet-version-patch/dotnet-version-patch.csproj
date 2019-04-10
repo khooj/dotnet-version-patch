@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>dotnet_version_patch</RootNamespace>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>dotnet-version-patch</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Deterministic>false</Deterministic>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>version-patch</ToolCommandName>
+    <ToolCommandName>dotnet-version-patch</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Title>dotnet-version-patch</Title>
     <Authors>khooj</Authors>
     <Description>Dumb versioning tool that increment major and minor version in AssemblyInfo.cs. Supposed to be used as pre-build task.</Description>
