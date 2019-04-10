@@ -14,7 +14,11 @@
     <Authors>khooj</Authors>
     <Description>Dumb versioning tool that increment major and minor version in AssemblyInfo.cs. Supposed to be used as pre-build task.</Description>
     <PackageTags>core;version;version patch;</PackageTags>
-    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/khooj/dotnet-version-patch</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/khooj/dotnet-version-patch/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/khooj/dotnet-version-patch</RepositoryUrl>
+    <PackageId>dotnet-version-patch</PackageId>
   </PropertyGroup>
 </Project>
