@@ -14,7 +14,8 @@ We need to deny assembly info generation because tool will modify it for us.
 Also we creating target that runs our tool when building in Release configuration.
 Note that tool will increment minor version as we used '--minor' argument.
 You can use '--major' and/or '--minor' so dotnet-version-patch will increment major and/or minor version accordingly.
-```<Project Sdk="Microsoft.NET.Sdk.Web">
+```
+<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
@@ -32,7 +33,8 @@ You can use '--major' and/or '--minor' so dotnet-version-patch will increment ma
 
 ### AssemblyInfo.cs
 Create default AssemblyInfo.cs in projects' properties and modify AssemblyVersion and AssemblyFileVersion that both major and minor numbers the same.
-```using System.Reflection;
+```
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
